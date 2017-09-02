@@ -1,0 +1,91 @@
+.nav {
+	background-color:#333;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+	word-spacing:15px;
+	text-align: center;
+}
+.nav li {
+	color: #fff;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+}
+.main-prompt {
+	text-align:center;
+	font-size:45px;
+	color:white;
+	position: relative;
+	bottom:65px;	
+	left:11.7px;
+}
+.img {
+background: url(https://s-media-cache-ak0.pinimg.com/originals/a3/d4/17/a3d417b04908132e6a8339076746cdac.jpg) no-repeat center center;
+background-size:cover;
+height:438px;
+padding:50px;
+background-position:top;
+border: 5px solid black;
+}
+.subtext {
+	font-size:45px;
+	text-align:center;
+	position:relative;
+	top:125px;
+	left:650px;
+	color: white;
+	background: rgba(0,0,0,.5);
+	width: 500px;
+	}
+#featuredshoe {
+	text-align:center;
+	position:relative;
+	top:110px;
+}
+.featured-list {
+	border: 5px solid black;
+}
+.list {
+	float:left;
+}
+.list img {
+	height: 500px;
+	position: relative;
+	left:20px;
+	top:200px;
+	border: solid black;
+	border-radius: 10px;
+}
+#title {
+	font-size:25px;
+}
+#condition{
+	font-size:25px;
+}
+.position {
+	position:relative;
+	left: 20px;
+	top:200px;
+}
+@media only screen 
+and (min-width : 2000px) {
+  .subtext {
+	  top:125px;
+	  left:780px;
+  }
+}
+.btn-main {
+	border: solid black;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-radius: 15px;
+	background: black;
+	text-align:center;
+	font-size: 45px;
+	position:relative;
+	top:80px;
+	left:850px;
+	color: white;
+}

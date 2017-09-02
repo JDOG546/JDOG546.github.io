@@ -1,0 +1,26 @@
+.about {
+	text-align:center;
+	font-size:70px;
+}
+#pg {
+	padding-left:50px;
+	padding-right:50px;
+}
+#title {
+	border-bottom: solid red;
+}
+.nav {
+	background-color:#333;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+	word-spacing:15px;
+	text-align: center;
+}
+.nav li {
+	color: #fff;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+}
